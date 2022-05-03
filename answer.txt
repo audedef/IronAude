@@ -1,0 +1,28 @@
+3. Clone that repo to your computer.
+
+I first accessed my Week 1 file with cd command
+Then :
+git clone https://github.com/audedef/IronAude.git
+
+
+4. Create a file in that folder. Name it about.txt and add a fun fact about yourself. 
+
+cd IronAude
+touch aboutaude.txt
+echo "blablabla" > aboutaude.txt
+
+
+
+5. Add the file you just created to the git.
+
+git add aboutaude.txt
+
+
+6. Commit the changes.
+
+git commit -m "fun fact about me"
+
+
+7. Push the changes to the GitHub and check your repository to make sure everything is there.
+
+git push origin master
